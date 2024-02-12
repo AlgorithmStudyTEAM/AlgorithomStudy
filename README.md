@@ -74,7 +74,7 @@
 ## 👨‍👩‍👧‍👦스터디 멤버
 
 
-### 🔎참고
+## 🔎참고
 [✏️jinny-l님 알고리즘 스터디](https://github.com/CodeSquad-2023-BE-Study/Algorithm-Study/tree/main)
 
 [😺방각코 알고리즘 스터디](https://github.com/CodeSquad-2023-BE-Study/Algorithm-Study/tree/main)
