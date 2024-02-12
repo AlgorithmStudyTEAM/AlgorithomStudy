@@ -43,12 +43,12 @@
 
 (실력이 오르면 스터디 시간에 문제풀을 예정)
 
-## Git 사용법
-[BOJ] - 백준
-[PGS] - 프로그래머스
-[SEA] - 삼성SW Expert Academy
-[LTC] - LeetCode
-[ETC] - 그외
+## 🖥️Git 사용법
+[BOJ] - 백준</br>
+[PGS] - 프로그래머스</br>
+[SEA] - 삼성SW Expert Academy</br>
+[LTC] - LeetCode</br>
+[ETC] - 그외</br>
 
 <b>problem_form.md 작성 방법</b></br>
 파일 이름
@@ -71,10 +71,10 @@
 [PGS] 18352 / 윤주원
 ```
 
-## 스터디 멤버
+## 👨‍👩‍👧‍👦스터디 멤버
 
 
-### 참고
+### 🔎참고
 [✏️jinny-l님 알고리즘 스터디](https://github.com/CodeSquad-2023-BE-Study/Algorithm-Study/tree/main)
 
 [😺방각코 알고리즘 스터디](https://github.com/CodeSquad-2023-BE-Study/Algorithm-Study/tree/main)
