@@ -44,13 +44,13 @@
 (실력이 오르면 스터디 시간에 문제풀을 예정)
 
 ## Git 사용법
-problem_form.md 작성 방법
+<b>problem_form.md 작성 방법</b>
 
-Issue 방법
+<b>Issue 방법</b>
 
-commit 방법
+<b>commit 방법</b>
 
-PR 방법
+<b>PR 방법</b>
 
 
 ## 스터디 멤버
