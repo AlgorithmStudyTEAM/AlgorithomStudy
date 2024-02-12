@@ -16,7 +16,7 @@
   </tr>
   <tr>
     <td>플랫폼</td>
-    <td>프로그래머스, LeetCode</td>
+    <td>프로그래머스, LeetCode, 백준 등</td>
   </tr>
   <tr>
     <td>언어</td>
