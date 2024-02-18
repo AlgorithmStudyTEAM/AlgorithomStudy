@@ -60,6 +60,7 @@
 # 디렉토리 이름 [02/13] </br>
 문제 주소: 문제 주속 작성</br>
 푼 시간: 1시간 14분 </br>
+시간복잡도: O(NlogN)</br>
 
 <접근법>
 접근법 작성
@@ -77,4 +78,4 @@
 ## 🔎참고
 [✏️jinny-l님 알고리즘 스터디](https://github.com/CodeSquad-2023-BE-Study/Algorithm-Study/tree/main)
 
-[😺방각코 알고리즘 스터디](https://github.com/CodeSquad-2023-BE-Study/Algorithm-Study/tree/main)
+[😺방각코 알고리즘 스터디](https://github.com/Seongho0503/Algo_Study)
