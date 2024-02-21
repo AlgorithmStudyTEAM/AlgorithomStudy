@@ -1,0 +1,24 @@
+#  LTC_4_maximum-depth-of-binary-tree 강정현 [2/20 화요일] </br>
+문제 주소: https://leetcode.com/problems/maximum-depth-of-binary-tree/ </br>
+푼 시간:  </br>
+
+<접근법>
+```
+재귀를 사용.
+```
+
+
+```java
+class Solution {
+    public int solve(TreeNode node, int depth) {
+        if(node == null)
+            return depth;
+        return Math.max(solve(node.left, depth+1), solve(node.right, depth+1));
+    }
+    public int maxDepth(TreeNode root) {
+        int res = solve(root, 0);
+        return res;
+    }
+}
+
+```
