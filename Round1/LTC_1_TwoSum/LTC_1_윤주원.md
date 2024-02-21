@@ -1,45 +1,33 @@
-#  LTC_1_TwoSum 윤주원 [2/19 월요일] </br>
-문제 주소: https://leetcode.com/problems/valid-parentheses/ </br>
-푼 시간 : 43분 </br>
-시간 복잡도 : O(n)
+#  LTC_1_TwoSum 윤주원 [2/17 토요일] </br>
+문제 주소: https://leetcode.com/problems/two-sum/description/ </br>
+푼 시간 : 35분 </br>
+시간 복잡도 : O(n^2)
 
 <접근법>
 ```
-
+0번부터 끝까지 
+1. nums 배열
+2. 
 ```
 
 ```java
 
-import java.util.*;
-
 class Solution {
-    public boolean isValid(String s) {
-        char[] chars = s.toCharArray();
-        Stack<Character> stackChar = new Stack<>();
-        int len = chars.length;
+    public int[] twoSum(int[] nums, int target) {
+        int len = nums.length;
+        int[] resulf = null;
 
-        if((len%2) == 1) return false;
-
-        for(int idx = 0; idx < len; idx++){
-            // (,{,[ 일 경우 
-            if(chars[idx]=='('||chars[idx]=='{'||chars[idx]=='['){
-                stackChar.push(chars[idx]);
-            }else{
-                char c;
-                try{
-                    c = stackChar.pop();
-                    if(!((chars[idx]-c)==2||(chars[idx]-c)==1)){
-                        return false;
-                    }
-                }catch (Exception e){
-                    return false;
+        // 
+        for(int start=0; start < len; start++){
+            for(int t=start+1; t < len; t++){
+                int r = nums[start] + nums[t];
+                if(r == target) {
+                    resulf = new int[] {start, t};
+                    return resulf;
                 }
             }
         }
-
-        if(!stackChar.isEmpty()) return false;
-
-        return true;
+        return resulf;
     }
 }
 ```
