@@ -1,0 +1,45 @@
+#  LTC_3_longest-consecutive-sequence 강정현 [2/19 월요일] </br>
+문제 주소: https://leetcode.com/problems/longest-consecutive-sequence/ </br>
+푼 시간:  </br>
+
+<접근법>
+```
+참고: https://velog.io/@acacia__u/hashSet
+정렬 알고리즘을 사용하면 시간복잡도를 만족할 수 없기 때문에 HashSet을 사용한다.
+```
+
+
+```java
+import java.util.HashSet;
+
+class Solution {
+    public int longestConsecutive(int[] nums) {
+        HashSet<Integer> numSet = new HashSet<>();
+
+        // set에 모든 숫자 추가
+        for (int num : nums) {
+            numSet.add(num);
+        }
+
+        int maxLength = 0;
+
+        // 배열의 각 숫자를 반복
+        for (int num : nums) {
+            // 현재 숫자가 시퀀스의 시작인지 확인
+            if (!numSet.contains(num - 1)) {
+                int currentNum = num;
+                int currentLength = 1;
+                
+                while (numSet.contains(currentNum + 1)) {
+                    currentNum++;
+                    currentLength++;
+                }
+
+                maxLength = Math.max(maxLength, currentLength);
+            }
+        }
+
+        return maxLength;
+    }
+}
+```
