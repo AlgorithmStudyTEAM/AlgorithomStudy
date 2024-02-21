@@ -1,4 +1,4 @@
-#  LTC_2_valid-parentheses 강정현 [2/18 일요일] </br>
+#  LTC_20_valid-parentheses 강정현 [2/18 일요일] </br>
 문제 주소: https://leetcode.com/problems/valid-parentheses/ </br>
 푼 시간: 10 min </br>
 
